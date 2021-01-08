@@ -1,3 +1,44 @@
 .App {
   text-align: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.display{
+  height: 80%;
+  padding: 4% 0 0 0;
+  display: flex;
+}
+
+.panel{
+  width: 10%;
+  background-color: rgb(26, 70, 85);
+}
+
+.panel div{
+  height: 16%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img{
+  width: 60%;
+  height: 60%;
+  cursor: pointer;
+  color: white;
+}
+.Users-img,.Exit-img{
+  width: 40%;
+}
+.Transport-img,.Inventory-img{
+  width: 50%;
+  height: 70%;
+}
+.Transport-img,.Exit-img{
+  cursor: default;
+}
+
+.category-page{
+  width: 80%;
 }
