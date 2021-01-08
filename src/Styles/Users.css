@@ -1,0 +1,37 @@
+.users{
+    padding: 0 4% 0 4%;
+}
+
+h2{
+    margin-top: 0;
+}
+
+.options{
+    display: flex;
+    justify-content: space-between;
+    height: 8%;
+}
+
+.filter{
+    width: 13%;
+}
+input{
+    width: 25%;
+}
+.view-type{
+    width: 10%;
+}
+
+.user-cards{
+    height: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 4%;
+}
+
+.user-cards div{
+    height: 22%;
+    width: 30%;
+    border: 3px solid gray;
+    margin: 1%;
+}

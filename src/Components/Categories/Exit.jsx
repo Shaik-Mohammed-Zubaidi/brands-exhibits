@@ -1,9 +1,6 @@
 import { Component } from "react";
 
 class Exit extends Component{
-    constructor(props){
-        super(props);
-    }
 
     render(){
         return (

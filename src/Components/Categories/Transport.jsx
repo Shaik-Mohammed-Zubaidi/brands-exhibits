@@ -1,9 +1,6 @@
 import { Component } from "react";
 
 class Transport extends Component{
-    constructor(props){
-        super(props);
-    }
 
     render(){
         return (

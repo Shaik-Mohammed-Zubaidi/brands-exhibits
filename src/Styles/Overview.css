@@ -1,0 +1,54 @@
+.overview{
+    padding: 0 4% 0 4%;
+}
+
+h3{
+    margin-top: 0;
+}
+
+.options{
+    display: flex;
+    justify-content: space-between;
+    height: 8%;
+}
+
+.options div{
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.stocks{
+    display: flex;
+    height: 25%;
+}
+
+.stocks div{
+    width: 22%;
+    margin: 1%;
+    border: 1px solid gray;
+    border-radius: 8px;
+}
+
+.transactions{
+    width: 100%;
+    margin-top: 4%;
+}
+
+.transactions div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.transactions div *{
+    margin-top: 0;
+}
+
+table{
+    width: 100%;
+}
+
+tr{
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,5 +1,4 @@
 .App {
-  text-align: center;
   width: 100vw;
   height: 100vh;
 }
@@ -40,5 +39,5 @@ img{
 }
 
 .category-page{
-  width: 80%;
+  width: 60%;
 }

@@ -1,0 +1,35 @@
+.inventory{
+    padding: 0 4% 0 4%;
+}
+
+h2{
+    margin-top: 0;
+}
+
+.options{
+    display: flex;
+    justify-content: space-between;
+    height: 8%;
+}
+
+.options div{
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.stats{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    margin-top: 4%;
+}
+
+.stats div{
+    width: 50%;
+}
+
+table{
+    width: 50%;
+    height: 100%;
+}

@@ -1,0 +1,24 @@
+.map{
+    padding: 0 4% 0 4%;
+}
+
+.options{
+    display: flex;
+    justify-content: space-between;
+    height: 10%;
+}
+
+.options>*{
+    margin: 0;
+}
+
+.options div{
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.map-image{
+    width: 100%;
+    height: 80%;
+}

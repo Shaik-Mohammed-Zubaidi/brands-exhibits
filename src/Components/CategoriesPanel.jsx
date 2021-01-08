@@ -1,9 +1,9 @@
-import Overview from "../images/overview.svg";
-import Map from "../images/map.svg";
-import Transport from "../images/truck.png";
-import Inventory from "../images/box.png";
-import Users from "../images/profile.jpg";
-import Exit from "../images/exit.webp";
+import Overview from "../Images/overview.svg";
+import Map from "../Images/map.svg";
+import Transport from "../Images/truck.png";
+import Inventory from "../Images/box.png";
+import Users from "../Images/profile.jpg";
+import Exit from "../Images/exit.webp";
 
 const CategoriesPanel = ({ setCategory }) => {
   const categories = [
