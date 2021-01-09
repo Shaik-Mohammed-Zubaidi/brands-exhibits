@@ -1,5 +1,5 @@
 import './App.css';
-import Display from './Components/Display';
+import Display from './Display/Display';
 
 function App() {
   return (

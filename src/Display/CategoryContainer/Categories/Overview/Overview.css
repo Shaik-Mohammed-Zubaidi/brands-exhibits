@@ -44,11 +44,11 @@ h3{
     margin-top: 0;
 }
 
-table{
+.transactions table{
     width: 100%;
 }
 
-tr{
+.transactions tr{
     display: flex;
     justify-content: space-between;
 }

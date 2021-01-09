@@ -29,7 +29,11 @@ h2{
     width: 50%;
 }
 
-table{
+.inventory table{
     width: 50%;
     height: 100%;
+}
+
+.inventory td{
+    text-align: center;
 }

@@ -1,6 +1,6 @@
 import { Component } from "react";
-import MapImage from '../../Images/map-photo.PNG';
-import '../../Styles/Map.css';
+import MapImage from './map-photo.PNG';
+import './Map.css';
 
 class Map extends Component{
 

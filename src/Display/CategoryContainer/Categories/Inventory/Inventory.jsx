@@ -1,5 +1,5 @@
 import { Component } from "react";
-import '../../Styles/Inventory.css';
+import './Inventory.css';
 
 class Inventory extends Component{
 

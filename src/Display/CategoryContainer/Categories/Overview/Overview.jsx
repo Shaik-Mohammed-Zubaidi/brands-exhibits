@@ -1,5 +1,5 @@
 import { Component } from "react";
-import '../../Styles/Overview.css';
+import './Overview.css';
 
 class Overview extends Component{
 
