@@ -18,7 +18,14 @@
     justify-content: space-evenly;
 }
 
+.map .view-type{
+    width: 40%;
+}
+.map .view-type img{
+    width: 40%;
+}
+
 .map-image{
     width: 100%;
-    height: 80%;
+    height: 90%;
 }

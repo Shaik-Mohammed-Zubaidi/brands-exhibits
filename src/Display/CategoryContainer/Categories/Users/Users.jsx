@@ -2,6 +2,7 @@ import { Component } from "react";
 import Icons from "../GridIcons/Icons";
 import Cards from "./Cards";
 import Filters from "./Filters";
+import SearchBox from "./SearchBox";
 import './Users.css';
 
 class Users extends Component{
@@ -14,7 +15,7 @@ class Users extends Component{
                     <h2>Users</h2>
                     <div className="options">
                         <Filters />
-                        <input />
+                        <SearchBox />
                         <Icons />
                     </div>
                     <Cards />

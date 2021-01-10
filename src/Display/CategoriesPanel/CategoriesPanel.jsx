@@ -4,6 +4,7 @@ import Transport from "./truck.png";
 import Inventory from "./box.png";
 import Users from "./profile.jpg";
 import Exit from "./exit.webp";
+import "./Panel.css";
 
 const CategoriesPanel = ({ setCategory }) => {
   const categories = [

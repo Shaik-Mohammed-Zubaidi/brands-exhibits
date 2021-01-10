@@ -1,0 +1,35 @@
+.panel{
+    width: 9%;
+    background-color: rgb(26, 70, 85);
+}
+
+.panel div{
+    height: 16%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.panel img{
+    width: 60%;
+    height: 60%;
+    cursor: pointer;
+    color: white;
+}
+
+.panel .Users-img{
+    width: 40%;
+}
+.panel .Exit-img{
+    width: 40%;
+    cursor: default;
+}
+.panel .Inventory-img{
+    width: 50%;
+    height: 70%;
+}
+.panel .Transport-img{
+    cursor: default;
+    width: 50%;
+    height: 70%;
+}

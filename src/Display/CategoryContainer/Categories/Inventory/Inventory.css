@@ -6,27 +6,93 @@ h2{
     margin-top: 0;
 }
 
-.options{
+.inventory .options{
     display: flex;
     justify-content: space-between;
     height: 8%;
+    margin-bottom: 1%;
 }
 
-.options div{
-    width: 20%;
+.inventory .options div{
+    width: 30%;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
+    border-radius: 20px;
+    padding: 1%;
+}
+
+.inventory .stock{
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    display: flex;
+    width: 100%;
+    padding: 1%;
+}
+
+.stock>img{
+    width: 24%;
+    height: 96%;
+}
+
+.stock>div{
+    width: 78%;
+    height: 96%;
+}
+
+.stock>div>div{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.stock>div>:nth-child(1){
+    color: red;
+}
+
+.inventory .selected-filter{
+    background-color: darkslategray;
+    color: white;
+}
+
+.inventory .view-type{
+    width: 40%;
+}
+.inventory .view-type img{
+    width: 40%;
+}
+
+.inventory .stocks{
+    display: flex;
+    height: 25%;
+}
+
+.inventory .stocks div{
+    margin: 1%;
+    border-radius: 32px;
+    background-color: white;
+    box-shadow: 5px;
 }
 
 .stats{
     width: 100%;
     height: 50%;
     display: flex;
-    margin-top: 4%;
+    margin-top: 3%;
 }
 
 .stats div{
     width: 50%;
+}
+
+.graph img{
+    width: 75%;
+    height: 85%;
+    border-radius: 32px;
+    background-color: white;
+    padding: 5%;
 }
 
 .inventory table{
@@ -34,6 +100,16 @@ h2{
     height: 100%;
 }
 
+.inventory tbody>:nth-child(2){
+    background-color: white;
+    border: 1px solid white;
+}
+
 .inventory td{
     text-align: center;
+    padding: 0;
+}
+
+.inventory tr{
+    padding: 5px;
 }

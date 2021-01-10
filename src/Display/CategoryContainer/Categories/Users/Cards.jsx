@@ -1,18 +1,18 @@
 const Cards = () =>{
     return (
         <div className="user-cards" >
-            <div><button className="view-inv" >view inventory</button> </div>
-            <div><button className="view-inv" >view inventory</button></div>
-            <div><button className="view-inv" >view inventory</button></div>
-            <div><button className="view-inv" >view inventory</button></div>
-            <div><button className="view-inv" >view inventory</button></div>
-            <div><button className="view-inv" >view inventory</button></div>
-            <div><button className="view-inv" >view inventory</button></div>
-            <div><button className="view-inv" >view inventory</button></div>
-            <div><button className="view-inv" >view inventory</button></div>
-            <div><button className="view-inv" >view inventory</button></div>
-            <div><button className="view-inv" >view inventory</button></div>
-            <div><button className="view-inv" >view inventory</button></div>
+            <div>Name<button className="view-inv" >VIEW INVENTORY</button></div>
+            <div>Name<button className="view-inv" >VIEW INVENTORY</button></div>
+            <div>Name<button className="view-inv" >VIEW INVENTORY</button></div>
+            <div>Name<button className="view-inv" >VIEW INVENTORY</button></div>
+            <div>Name<button className="view-inv" >VIEW INVENTORY</button></div>
+            <div>Name<button className="view-inv" >VIEW INVENTORY</button></div>
+            <div>Name<button className="view-inv" >VIEW INVENTORY</button></div>
+            <div>Name<button className="view-inv" >VIEW INVENTORY</button></div>
+            <div>Name<button className="view-inv" >VIEW INVENTORY</button></div>
+            <div>Name<button className="view-inv" >VIEW INVENTORY</button></div>
+            <div>Name<button className="view-inv" >VIEW INVENTORY</button></div>
+            <div>Name<button className="view-inv" >VIEW INVENTORY</button></div>
         </div>
     );
 };
