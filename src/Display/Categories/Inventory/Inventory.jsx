@@ -1,10 +1,10 @@
 import { Component } from "react";
 import './Inventory.css';
-import Icons from "../GridIcons/Icons";
+import Icons from "../Common/Icons";
 import InventoryTable from "./InventoryTable";
 import Stocks from "./Stocks";
 import Graph from "./Graph";
-import Filters from "./Filters";
+import Filters from "../Common/Filters";
 
 class Inventory extends Component{
 
@@ -12,7 +12,7 @@ class Inventory extends Component{
         return (
             <>
             {this.props.visibility && 
-                <div className="category-page inventory" >
+                <div className="category-page inventory">
                     <h2>Inventory</h2>
                     <div className="options" >
                         <Filters />

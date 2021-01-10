@@ -71,6 +71,13 @@
     background-color: white;
 }
 
+.user-cards>div>img{
+    width: 10%;
+    height: 40%;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
 .view-inv{
     font-size: 11px;
     position: absolute;

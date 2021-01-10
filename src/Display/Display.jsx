@@ -1,6 +1,6 @@
 import { useState } from "react";
 import CategoriesPanel from "./CategoriesPanel/CategoriesPanel";
-import Category from './CategoryContainer/CategoryContainer';
+import Category from './CategoryContainer';
 
 const Display = () =>{
 

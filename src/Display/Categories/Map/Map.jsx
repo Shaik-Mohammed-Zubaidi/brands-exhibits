@@ -1,5 +1,5 @@
 import { Component } from "react";
-import Icons from "../GridIcons/Icons";
+import Icons from "../Common/Icons";
 import DisplayMap from "./DisplayMap";
 import './Map.css';
 

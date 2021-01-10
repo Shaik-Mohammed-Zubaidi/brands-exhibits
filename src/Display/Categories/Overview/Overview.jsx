@@ -1,7 +1,7 @@
 import { Component } from "react";
 import './Overview.css';
-import Icons from "../GridIcons/Icons";
-import OptionsFilters from "./OptionsFilters";
+import Icons from "../Common/Icons";
+import Filters from "../Common/Filters";
 import Stocks from "./Stocks";
 import TransactionTable from "./TransactionTable";
 import TransactionsFilter from "./TransactionsFilter";
@@ -16,7 +16,7 @@ class Overview extends Component{
                 <div className="category-page overview" >
                     <h2>Overview</h2>
                     <div className="options" >
-                        <OptionsFilters />
+                        <Filters />
                         <div>
                             <Icons />
                         </div>
